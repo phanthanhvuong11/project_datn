@@ -1,0 +1,33 @@
+<img class="wave" src="../../assets/img/wave1.png"/>
+<h2 class="text">ĐỒ ÁN TỐT NGHIỆP </h2>
+<h2 class="text">CHUYỂN NGÀNH AN TOÀN THÔNG TIN</h2>
+<h3 class="text">Đề tài: Nghiên cứu và ứng dụng SIP và RTP trong hệ thống Voice IP</h3>
+<div class="container">
+  <div class="form-container">
+      <div class="img">
+          <img src="../../assets/img/img1.svg">
+      </div>
+      <div class="login-container">
+        <form [formGroup]="registerForm" (ngSubmit)="register()">
+            <img src="../../assets/img/avatar.svg" class="avatar" >
+            <h2>Register</h2>
+            <div class="input-div">
+                <input class="input" type="number" matInput placeholder="Username" formControlName="userName" (keypress)="preventNonNumericalInput($event)">
+            </div>
+            <!-- <div class="alert alert-danger" role="alert"
+              *ngIf="loginForm.get('username').invalid && loginForm.get('username').touched">
+              Please username!!
+            </div> -->
+            <div class="input-div">
+                  <input type="password" class="input" matInput  placeholder="Password" formControlName="password">
+            </div>
+            <!-- <div class="alert alert-danger" role="alert"
+              *ngIf="username == ''">
+              Please password!!
+            </div> -->
+            <!-- <input type="submit" class="btn" value="Register" color="primary"> -->
+            <button type="submit" class="btn" [disabled]="!registerForm.valid">Register</button>
+        </form>
+      </div>
+  </div>
+</div>

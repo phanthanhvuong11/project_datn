@@ -1,0 +1,41 @@
+<img class="wave" src="../../assets/img/wave1.png"/>
+<h2 class="text">ĐỒ ÁN TỐT NGHIỆP </h2>
+  <h2 class="text">CHUYỂN NGÀNH AN TOÀN THÔNG TIN</h2>
+  <h3 class="text">Đề tài: Nghiên cứu và ứng dụng SIP và RTP trong hệ thống Voice IP</h3>
+<div class="container">
+  <div class="form-container">
+    <div class="img">
+      <img src="../../assets/img/img1.svg">
+
+  </div>
+  <div class="detail-container" style="margin-top: 50px; align-items: flex-start;">
+    <h3 style="text-align: center;color: blue;margin-top: 10%;">Thông tin tài khoản đăng ký</h3>
+    <button class="btn btn-danger" type="button" style="margin-left:2%;" [routerLink]="['/register']"> Add user</button>
+    <div class="login-container">
+      <table class="table table-bordered table-hover" style="border-color:red; margin-top: 1%;">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>UserName</th>
+          <th>Password</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = 'let item of accounts; index as index'>
+          <td>{{index+1}}</td>
+          <td>{{item.userName}}</td>
+          <td>{{item.password}}</td>
+          <td>
+            <button type="button" class="btn btn-success" style="padding: 1%;" (click)="onEdit(item)">Edit</button>
+            <button type="button" class="btn btn-danger" style="margin-left: 5px;padding: 1%;" (click)="onDelete(item.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  </div>
+
+</div>

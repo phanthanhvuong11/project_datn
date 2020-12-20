@@ -1,0 +1,18 @@
+[0mAsterisk 16.2.1~dfsg-2ubuntu1, Copyright (C) 1999 - 2018, Digium, Inc. and others.
+Created by Mark Spencer <markster@digium.com>
+Asterisk comes with ABSOLUTELY NO WARRANTY; type 'core show warranty' for details.
+This is free software, with components licensed under the GNU General Public
+License version 2 and other licenses; you are welcome to redistribute it under
+certain conditions. Type 'core show license' for details.
+=========================================================================
+[0m[0m
+[0KConnected to Asterisk 16.2.1~dfsg-2ubuntu1 currently running on ubuntu-virtual-machine (pid = 1075)
+Name/username             Host                                    Dyn Forcerport Comedia    ACL Port     Status      Description                      
+111000111                 (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+111000222                 (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+111000333                 (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+111000444                 (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+1111                      (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+2222                      (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+loc                       (Unspecified)                            D  Auto (No)  No             0        Unmonitored                                  
+7 sip peers [Monitored: 0 online, 0 offline Unmonitored: 0 online, 7 offline]

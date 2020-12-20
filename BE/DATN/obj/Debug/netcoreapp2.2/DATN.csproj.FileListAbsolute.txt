@@ -1,0 +1,4 @@
+/home/ubuntu/Desktop/DATN/Code/BE/DATN/obj/Debug/netcoreapp2.2/DATN.csprojAssemblyReference.cache
+/home/ubuntu/Desktop/DATN/Code/BE/DATN/obj/Debug/netcoreapp2.2/DATN.AssemblyInfoInputs.cache
+/home/ubuntu/Desktop/DATN/Code/BE/DATN/obj/Debug/netcoreapp2.2/DATN.AssemblyInfo.cs
+/home/ubuntu/Desktop/DATN/Code/BE/DATN/obj/Debug/netcoreapp2.2/DATN.csproj.CoreCompileInputs.cache
